@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dwaee Admin Web App">
+	
+  
+  <test name="Login">
+    <classes>
+      <class name="ui.LoginTest"/>
+      <class name="ui.DwaeeAdminIM"/>
+    </classes>
+  </test> <!-- Test -->  
+  
+    
+  <!--<test name="InventoryManagement">
+    <classes>
+      <class name="ui.DwaeeAdminIM"/>
+    </classes>  
+  </test> -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
